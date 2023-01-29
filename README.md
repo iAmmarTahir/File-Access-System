@@ -1,4 +1,2 @@
 # File-Access-System
-Its a basic implementation of lock table maintained by Database Management Systems (DBMS) in the backend using Hash Tables and Priority Queues.
-So, all users can read file simultaneously, but, when a user has to write on a file, then he should have exculsive access to file and no other user can access that file untill the writer is not done with it.
-It actually implements the functionality of reader and writer locks discussed in Operating Systems (OS).
+The Reader-Writer Lock Table is a basic implementation of lock management in a database management system. It utilizes Hash Tables and Priority Queues to enable multiple users to read a file simultaneously, but provides exclusive access to a file for writing purposes. This implementation mirrors the functionality of reader and writer locks as discussed in operating systems, ensuring the efficient and effective management of file access for users. Whether you are a database administrator or an operating systems specialist, this project offers a straightforward and practical solution for lock management in a DBMS environment.
